@@ -26,7 +26,7 @@ Here is mine :
 
 Finally, add a cron job to execute the script (every 5 minutes should be good) 
 
-  */5 * * * * /script_dir/df.sh
+    */5 * * * * /script_dir/df.sh
 
 <br>
 #####On the Nagios host
