@@ -19,7 +19,6 @@ This can be done in maintenance mode.
 Then, we have to create a bash script to output the DF command
 Here is mine :
 --
-# ! /bin/bash
 OutFile=/home/nbusers/dfout.log
 >$OutFile
 df -Pkh | awk '{if (NR!=1) print $5,$6}' | sed 's/%//g'>$OutFile
